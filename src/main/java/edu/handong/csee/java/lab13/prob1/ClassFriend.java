@@ -1,8 +1,7 @@
-package edu.handong.csee.java.lab13.prob1;
+package edu.handong.csee.java.lab13.prob1;   // package name
 
-public class ClassFriend extends SchoolFriend{
-	public void classFriend() {
-		System.out.println("Class Friend");
+public class ClassFriend extends SchoolFriend{  // inheritance from SchoolFriend
+	public void classFriend() {   // method name
+		System.out.println("Class Friend!");   // print message
 	}
-
 }
