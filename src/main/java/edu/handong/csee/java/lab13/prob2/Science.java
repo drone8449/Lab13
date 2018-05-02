@@ -1,18 +1,18 @@
-package edu.handong.csee.java.lab13.prob2;
+package edu.handong.csee.java.lab13.prob2;   // package name
 
-public class Science extends Book{
-	private String publisher;
+public class Science extends Book{   // inheritance from Book
+	private String publisher;   // string publisher
 	
-	public Science(String Name, String Publisher) {
-		super(Name);
-		this.publisher = Publisher;
+	public Science(String Name, String Publisher) {   // constructor having parameter Name and Publisher
+		super(Name);   // up_casting to Book 
+		this.publisher = Publisher;    // publisher is Publisher
 	}
 	
-	public String toString() {
-		return super.toString() + "\n\tPublisher: " + publisher;
+	public String toString() {   // method name
+		return super.toString() + "\n\tPublisher: " + publisher;  // return Id, Book name and publisher
 	}
 	
-	public void show() {
-		System.out.println("<<<Science>>>" + this.toString());
+	public void show() {   // method name
+		System.out.println("<<<Science>>>" + this.toString());   // print Id, Book name and publisher
 	}
 }
