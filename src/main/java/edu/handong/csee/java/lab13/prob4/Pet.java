@@ -1,5 +1,5 @@
 package edu.handong.csee.java.lab13.prob4;
 
-public class Pet {
-
+public interface Pet {
+	public String food();
 }
